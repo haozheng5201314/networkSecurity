@@ -1,0 +1,9 @@
+.atom/
+.idea/
+.fleet/
+*.iml
+*.ipr
+*.iws
+*.sln
+*.swp
+*.xml
