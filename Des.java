@@ -6,9 +6,9 @@ public class Des {
     public static void main(String[] args) {
         //获取明文
         // char[] msgChars = utilsImpl.GetMsg();
-        char[] msgChars = "FEDCBA9876543210".toCharArray();
+        char[] msgChars = "0123456789ABCDEF".toCharArray();
         //String key = "133457799BBCDFF1";
-        String key = "0123456789ABCDEF";
+        String key = "133457799BBCDFF1";
         utilsImpl.DesEncry(msgChars,key);
     }
 }
