@@ -14,13 +14,9 @@ public class CaesarCipher {
         int k = sc.nextInt() % 26;
         utilsImpl.CharStats(msgChars);
         utilsImpl.CaesarCipherEncry(msgChars, k);
-
         utilsImpl.CharStats(msgChars);
         utilsImpl.CaesarCipherBFA(msgChars.clone());
         utilsImpl.CaesarCipherDecry(msgChars, k);
-
-
-
         /*
         // 操作选择
         System.out.println("请输入你的操作（序号）");
@@ -44,7 +40,4 @@ public class CaesarCipher {
         }
         */
     }
-
-
-
 }
