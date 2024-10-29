@@ -13,7 +13,7 @@ public class CaesarCipher {
         System.out.println("请输入偏移量k");
         int k = sc.nextInt() % 26;
         utilsImpl.CharStats(msgChars);
-        utilsImpl.CaesarCipherEncry(msgChars, k);
+        msgChars = utilsImpl.CaesarCipherEncry(msgChars, k);
         utilsImpl.CharStats(msgChars);
         utilsImpl.CaesarCipherBFA(msgChars.clone());
         utilsImpl.CaesarCipherDecry(msgChars, k);
