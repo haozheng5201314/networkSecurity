@@ -11,6 +11,7 @@ public class CaesarCipher {
         char[] msgChars = "abcxyzABCXYZ".toCharArray();
         // 输入偏移量k
         System.out.println("请输入偏移量k");
+
         int k = sc.nextInt() % 26;
         utilsImpl.CharStats(msgChars);
         msgChars = utilsImpl.CaesarCipherEncry(msgChars, k);
