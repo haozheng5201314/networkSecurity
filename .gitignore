@@ -8,3 +8,4 @@
 *.swp
 *.xml
 *text*
+/out/production/networkSecurity/Service/impl/UtilsImpl.class
